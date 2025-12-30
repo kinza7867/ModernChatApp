@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "ModernChatApp",
+    "slug": "ModernChatApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://png.pngtree.com/png-vector/20190505/ourmid/pngtree-vector-chat-icon-png-image_1023479.jpg",
+    "scheme": "modernchatapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKuJXGwL-BuTR42Ncd5A4J29raGYLic4UpqA&s",
+        "backgroundImage": "https://i.pinimg.com/736x/62/0a/a3/620aa39c008d839292c0242a5582be98.jpg",
+        "monochromeImage": "https://lh3.googleusercontent.com/Ht3XnJVEz69LjWUUv3RI-EMi-ttafdHofo3D6h-iDeoeamufr4i46oRKcDSB4NPfyj4KmbqmSMmykGkz7_dbx9gfHQ=s128-rj-sc0x00ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "https://img.freepik.com/premium-vector/modern-chat-talk-consulting-logo-icon-design-template_25572-284.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "https://img.freepik.com/premium-vector/online-chat-messages-text-notification-mobile-phone_441769-88.jpg?w=360",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
